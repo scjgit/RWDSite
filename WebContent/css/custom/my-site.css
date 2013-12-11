@@ -1,0 +1,46 @@
+@CHARSET "ISO-8859-1";
+
+.oval-edge{
+	border-radius: 25px;
+}
+
+.shadow {
+	box-shadow: 5px 5px 10px #888;
+}
+
+.link:hover {
+	box-shadow: -5px -5px 10px #888;
+	cursor: pointer;
+}
+
+.curved-edges{
+	border-radius: 5px !important;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="email"]{
+	border-radius: 5px !important;
+}
+
+.label-style{
+	padding-top: 8px;
+	text-shadow: 2px;
+	font-weight: bold; 
+}
+
+.link-style{
+	font-weight: bold;
+	font-size: small;
+}
+
+.border-style{
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.menu-grid{
+	padding-top: 3%;
+}

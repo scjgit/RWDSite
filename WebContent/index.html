@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<!-- Set the viewport width to device width for mobile -->
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="css/foundation.css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/custom/my-site.css">
+<script src="js/vendor/custom.modernizr.js"></script>
+<script src="js/vendor/zepto.js"></script>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/custom/my-site.js"></script>
+<title>My Foundation Page</title>
+</head>
+<body>
+	<!-- Navigation -->
+	<nav class="top-bar">
+		<ul class="title-area">
+			<!-- Title Area -->
+			<li class="name">
+				<h1>
+					<a href="#">My Site</a>
+				</h1>
+			</li>
+		</ul>
+	</nav>
+	<br>
+	<!-- End Top Bar -->
+	<div class="row">
+		<div class="large-12 columns">
+			<!-- Header Image-->
+			<div class="row">
+				<div class="large-12 columns">
+					<img src="../RWDSite/images/header.gif" class="curved-edges shadow">
+				</div>
+			</div>			
+			<br>
+			<!-- End Header Image -->
+			
+			<!-- Body Content -->
+			<div class="row">
+				<div class="large-12 small-12 columns">
+					<div class="row">
+						<div class="large-3 small-12 columns push-2">
+							<label class="label-style offset-2">Username: </label>
+						</div>
+						<div class="large-6 small-12 columns left">
+							<input type="text" class="" placeholder="username"/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="large-3 small-12 columns push-2">
+							<label class="label-style">Password: </label>
+						</div>
+						<div class="large-6 small-12 columns left">
+							<input type="password" class="" placeholder="password"/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="small-12 large-12 columns push-3">
+							<button class="large-5 small-12 oval-edge shadow" onclick="goToHomePage()">Login</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Body Content -->
+			<!-- Footer -->
+			<footer class="row">
+				<div class="large-12 columns">
+					<hr>
+					<div class="row">						
+						<div class="large-12 columns link-style">
+							<ul class="inline-list right">
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">Our Services</a></li>
+								<li><a href="#">Other Products</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- End Footer -->
+		</div>
+	</div>
+	<script src="js/foundation/foundation.js"></script>
+	<script src="js/foundation/foundation.topbar.js"></script>
+	<script src="js/foundation/foundation.dropdown.js"></script>
+	<script>$(document).foundation();</script>
+</body>
+</html>
